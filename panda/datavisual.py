@@ -1,0 +1,17 @@
+import pandas as pd
+df=pd.read_csv(r"C:\Users\HP\Downloads\Iris.csv",encoding="utf-8")
+print("displaying the first 5 rows",df.head())
+print()
+print("displaying the last 5 rows",df.tail())
+print("staring 10 rows")
+print(df.head(10))
+print("printing last 10 rows ")
+print(df.tail(10))
+print("printing the info of iris")
+print(df.info())
+print()
+print("discribing the data set")
+print(df.describe())
+#shape and columns atributes
+print("shape of the iris",df.shape)
+print("columns of the iris",df.columns)
