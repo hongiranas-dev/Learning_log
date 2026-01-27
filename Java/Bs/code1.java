@@ -1,8 +1,8 @@
 package Java.Bs;
 public class code1 {
   public static void main(String[] args) {
-    int arr[]={-9,1,3,5,9,33,54,67,89,90,121,345};
-  int target=90;
+    int arr[]={5,4,3,2,1};
+  int target=2;
   int a= BinarySearch(arr,target);
   System.out.println(a);
   }
@@ -11,10 +11,10 @@ public class code1 {
      int end=arr.length-1;
     while (start<end) {
       int mid=start+(end-start/2);
-      if(target>arr[mid]){
+      if(target<arr[mid]){
         start=mid+1;  
       }
-      else if(target<arr[mid]){
+      else if(target>arr[mid]){
         end=mid-1;
       }
       else{
