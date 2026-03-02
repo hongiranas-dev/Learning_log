@@ -1,4 +1,3 @@
-package Java(DSA).Bs;
 
 public class Floornum {
   public static void main(String[] args) {
