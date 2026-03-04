@@ -1,4 +1,4 @@
-package Java.Bs;
+
 
 public class AscendDescendBinaryS {
   public static void main(String[] args) {
