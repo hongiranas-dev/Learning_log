@@ -14,6 +14,7 @@ public class Code1 {
     
     for(int i=0;i<arr.length;i++){
     if(target==arr[i]){
+      sc.close();
       return i;
     }
     
@@ -21,7 +22,8 @@ public class Code1 {
     return -1;
     
  
-    }
+   
+   }
   }
   
 
