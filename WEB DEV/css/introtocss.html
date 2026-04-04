@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>her first CSS</title>
+
+    
+  <!-- internal css  2nd-->
+   <style>
+    /* refer to id?? use #for slecetor */
+    #article1{
+     color: rgb(122, 168, 237);
+    }
+    /* for class selector .*/
+    .class1{
+      color: rgb(233, 60, 218) !important;
+    }
+    /*group selector */
+    p,article{
+      color: rgb(34, 29, 29);
+    }
+    body {
+      background-color: rgb(218, 17, 47);
+    }
+    h1 {
+      color: rgb(43, 38, 198);
+    }
+    p { 
+      font-size: 18px;
+      /* mark important to get priority */
+      color: rgb(34, 29, 29) !important;
+   }
+   
+   </style>
+<!-- external css 1st (depends on order)-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Imma honnu first CSSS learning file</h1>
+
+  <!-- doing inline css I prioritize (not sutable for coding) -->
+   
+  <p style="color: blue;"> she is going through a lot latelyyy
+    she needs some times to settele this and alll
+  </p>
+  <p> This is another paragraph.</p>
+  <p> she is keeping it together. and learning a lot of thingss</p>
+  <br>
+  <p> i love getting started with CSS!</p>
+
+    <!-- id selector -->
+  <article id="article1"> hiiiii honnuuuu 
+    this your sweet
+     hearttttt </article>
+
+  <!-- class selector -->
+   <p class="class1"> brooo why i am able to
+     give time to my parents</p>
+  <p class="class1">  ahhh i am so distracted </p>
+
+</body>
+</html>
