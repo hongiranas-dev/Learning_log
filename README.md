@@ -1,5 +1,5 @@
 # Learning_log
-Just a personal log book for myself for developing and working on skills
+Just a personal log book for myself for developing and working on skills ON ACCOUNT OF PROTFOLIO BULIDING
 # Learning Log
 
 This learning log documents my progress throughout the project, including the concepts I have learned, tasks I have completed, challenges I have encountered, and solutions I have developed. It provides a record of my practical experience and reflects how my understanding and skills have improved over time. I will use this log to track my progress, reflect on my learning, and identify areas where I can continue to improve.
